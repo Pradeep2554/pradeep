@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+.main{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 100px auto;
+}
+
+
+.eyes{
+    width: 400px;
+    height: 400px;
+
+    
+}
+
+.left{
+
+    display: inline-block;
+       margin-left: 115px;
+       margin-top: 100px;
+       top:20px;
+       width: 20%;
+       height: 20%;
+       border-radius: 50%;
+       background-color: black;
+
+}
+
+.right{
+    display: inline-block;
+       margin-left: 100px;
+    top:20px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.mouth:hover{
+
+    box-shadow: 2px 2px 6px rgb(236, 13, 169);
+
+
+}
+
+.left:hover{
+    background-color:white;
+}
+
+
+.right:hover{
+    background-color:white;
+}
+
+
+.mouth{
+    width: 250px;
+    height: 100px;
+    border-radius: 0px 0px 100px 100px;
+    background-color: rgb(231, 72, 125);
+    position:relative;
+    left: 130px;
+    bottom: 60px;
+}
+
+.content{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
